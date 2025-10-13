@@ -5,6 +5,10 @@ def main(x):
     else:
         print(ans)
 
-main(9)
+if __name__ == "__main__":
+    x = 9
+    main(x)
+
+
 
 
