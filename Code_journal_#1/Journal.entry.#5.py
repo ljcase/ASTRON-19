@@ -17,8 +17,13 @@ def main():
     print("  x          sin(x)  ")
     print("------------------------------")
     for i in range(len(x)):
-        print(f"| {x[i]:.5f},       {np.sin(x)[i]:.5f} |")
+        print(f"| {x[i]:.5f},       {y[i]:.5f} |")
 
+    plt.plot(x,y)
+    plt.xlabel("x")
+    plt.ylabel("sin(x)")
+    plt.savefig("sinplot.png",bbox_inches="tight")
+    #plt.savefig("sinplot.png")
 if __name__ == "__main__":
     main()
 

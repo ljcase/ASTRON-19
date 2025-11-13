@@ -1,0 +1,17 @@
+#from the Hnadout #3
+2.0 disky spiral
+4.0 round elliptical
+6.0 clumoy irregular
+
+#from hw data_hw3.txt
+1.0 black hole
+2.0 red dwarfs
+3.0 blue planets
+
+
+###FROM HW numpoy_data_hw3.txt
+# decimal C02
+# date ppm
+1980.042 337.80
+1980.125 338.28
+1980.208 340.04
